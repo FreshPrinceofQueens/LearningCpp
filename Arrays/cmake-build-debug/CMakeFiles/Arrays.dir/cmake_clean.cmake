@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "Arrays"
   "Arrays.pdb"
+  "CMakeFiles/Arrays.dir/ArrayLoopsQuestion.cpp.o"
   "CMakeFiles/Arrays.dir/main.cpp.o"
 )
 
