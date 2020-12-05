@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/3849223/CLionProjects/cppLearnin/Arrays/ArrayLoopsQuestion.cpp
+/Users/3849223/CLionProjects/cppLearnin/Arrays/BubbleSort.cpp
 iostream
+-
+algorithm
 -
 

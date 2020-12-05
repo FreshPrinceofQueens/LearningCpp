@@ -170,6 +170,33 @@ ArrayLoopsQuestion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/ArrayLoopsQuestion.cpp.s
 .PHONY : ArrayLoopsQuestion.cpp.s
 
+BubbleSort.o: BubbleSort.cpp.o
+
+.PHONY : BubbleSort.o
+
+# target to build an object file
+BubbleSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/BubbleSort.cpp.o
+.PHONY : BubbleSort.cpp.o
+
+BubbleSort.i: BubbleSort.cpp.i
+
+.PHONY : BubbleSort.i
+
+# target to preprocess a source file
+BubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/BubbleSort.cpp.i
+.PHONY : BubbleSort.cpp.i
+
+BubbleSort.s: BubbleSort.cpp.s
+
+.PHONY : BubbleSort.s
+
+# target to generate assembly for a file
+BubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arrays.dir/build.make CMakeFiles/Arrays.dir/BubbleSort.cpp.s
+.PHONY : BubbleSort.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... ArrayLoopsQuestion.o"
 	@echo "... ArrayLoopsQuestion.i"
 	@echo "... ArrayLoopsQuestion.s"
+	@echo "... BubbleSort.o"
+	@echo "... BubbleSort.i"
+	@echo "... BubbleSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

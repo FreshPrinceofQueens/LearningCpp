@@ -3,4 +3,4 @@ project(Arrays)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Arrays main.cpp ArrayLoopsQuestion.cpp)
+add_executable(Arrays main.cpp ArrayLoopsQuestion.cpp BubbleSort.cpp)

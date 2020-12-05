@@ -3,5 +3,7 @@
 
 CMakeFiles/Arrays.dir/ArrayLoopsQuestion.cpp.o: ../ArrayLoopsQuestion.cpp
 
+CMakeFiles/Arrays.dir/BubbleSort.cpp.o: ../BubbleSort.cpp
+
 CMakeFiles/Arrays.dir/main.cpp.o: ../main.cpp
 

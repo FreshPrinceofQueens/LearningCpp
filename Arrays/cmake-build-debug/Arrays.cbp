@@ -83,6 +83,9 @@
 		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Arrays/ArrayLoopsQuestion.cpp">
 			<Option target="Arrays"/>
 		</Unit>
+		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Arrays/BubbleSort.cpp">
+			<Option target="Arrays"/>
+		</Unit>
 		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Arrays/main.cpp">
 			<Option target="Arrays"/>
 		</Unit>
