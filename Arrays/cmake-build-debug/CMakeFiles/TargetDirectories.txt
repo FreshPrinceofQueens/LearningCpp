@@ -1,0 +1,3 @@
+/Users/3849223/CLionProjects/cppLearnin/Arrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/3849223/CLionProjects/cppLearnin/Arrays/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/3849223/CLionProjects/cppLearnin/Arrays/cmake-build-debug/CMakeFiles/Arrays.dir
