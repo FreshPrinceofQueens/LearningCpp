@@ -13,6 +13,7 @@ int *find(int *begin, int *end, int target) {
     }
     return end;
 }
+/*
 int main() {
     int arr[]{ 2, 5, 4, 10, 8, 20, 16, 40 };
 
@@ -27,4 +28,4 @@ int main() {
 
     return 0;
     return 0;
-}
+}*/

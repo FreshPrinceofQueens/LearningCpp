@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/3849223/CLionProjects/cppLearnin/Pointers/FindFunct.cpp
+/Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp
 iostream
 -
-iterator
+string
+-
+algorithm
 -
 

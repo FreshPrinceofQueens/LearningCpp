@@ -83,6 +83,12 @@
 		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Pointers/FindFunct.cpp">
 			<Option target="Pointers"/>
 		</Unit>
+		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp">
+			<Option target="Pointers"/>
+		</Unit>
+		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Pointers/lengthOfLongestString.cpp">
+			<Option target="Pointers"/>
+		</Unit>
 		<Unit filename="/Users/3849223/CLionProjects/cppLearnin/Pointers/main.cpp">
 			<Option target="Pointers"/>
 		</Unit>

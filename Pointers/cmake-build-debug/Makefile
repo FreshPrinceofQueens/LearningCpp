@@ -170,6 +170,60 @@ FindFunct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/FindFunct.cpp.s
 .PHONY : FindFunct.cpp.s
 
+dynamicArrayPractice.o: dynamicArrayPractice.cpp.o
+
+.PHONY : dynamicArrayPractice.o
+
+# target to build an object file
+dynamicArrayPractice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o
+.PHONY : dynamicArrayPractice.cpp.o
+
+dynamicArrayPractice.i: dynamicArrayPractice.cpp.i
+
+.PHONY : dynamicArrayPractice.i
+
+# target to preprocess a source file
+dynamicArrayPractice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.i
+.PHONY : dynamicArrayPractice.cpp.i
+
+dynamicArrayPractice.s: dynamicArrayPractice.cpp.s
+
+.PHONY : dynamicArrayPractice.s
+
+# target to generate assembly for a file
+dynamicArrayPractice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.s
+.PHONY : dynamicArrayPractice.cpp.s
+
+lengthOfLongestString.o: lengthOfLongestString.cpp.o
+
+.PHONY : lengthOfLongestString.o
+
+# target to build an object file
+lengthOfLongestString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o
+.PHONY : lengthOfLongestString.cpp.o
+
+lengthOfLongestString.i: lengthOfLongestString.cpp.i
+
+.PHONY : lengthOfLongestString.i
+
+# target to preprocess a source file
+lengthOfLongestString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.i
+.PHONY : lengthOfLongestString.cpp.i
+
+lengthOfLongestString.s: lengthOfLongestString.cpp.s
+
+.PHONY : lengthOfLongestString.s
+
+# target to generate assembly for a file
+lengthOfLongestString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.s
+.PHONY : lengthOfLongestString.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +263,12 @@ help:
 	@echo "... FindFunct.o"
 	@echo "... FindFunct.i"
 	@echo "... FindFunct.s"
+	@echo "... dynamicArrayPractice.o"
+	@echo "... dynamicArrayPractice.i"
+	@echo "... dynamicArrayPractice.s"
+	@echo "... lengthOfLongestString.o"
+	@echo "... lengthOfLongestString.i"
+	@echo "... lengthOfLongestString.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

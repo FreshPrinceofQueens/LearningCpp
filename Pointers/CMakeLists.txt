@@ -3,4 +3,4 @@ project(Pointers)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Pointers main.cpp FindFunct.cpp)
+add_executable(Pointers main.cpp FindFunct.cpp lengthOfLongestString.cpp dynamicArrayPractice.cpp)

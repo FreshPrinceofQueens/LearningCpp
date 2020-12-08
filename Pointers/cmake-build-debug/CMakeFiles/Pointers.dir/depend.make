@@ -3,5 +3,9 @@
 
 CMakeFiles/Pointers.dir/FindFunct.cpp.o: ../FindFunct.cpp
 
+CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o: ../dynamicArrayPractice.cpp
+
+CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o: ../lengthOfLongestString.cpp
+
 CMakeFiles/Pointers.dir/main.cpp.o: ../main.cpp
 

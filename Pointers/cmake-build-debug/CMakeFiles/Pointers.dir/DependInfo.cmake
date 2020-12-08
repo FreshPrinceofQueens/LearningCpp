@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/3849223/CLionProjects/cppLearnin/Pointers/FindFunct.cpp" "/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles/Pointers.dir/FindFunct.cpp.o"
+  "/Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp" "/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o"
+  "/Users/3849223/CLionProjects/cppLearnin/Pointers/lengthOfLongestString.cpp" "/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o"
   "/Users/3849223/CLionProjects/cppLearnin/Pointers/main.cpp" "/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles/Pointers.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
