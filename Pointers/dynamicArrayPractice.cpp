@@ -22,4 +22,5 @@ int main() {
     for(int  i = 0; i < length; ++i) {
         cout << names[i] << endl;
     }
+    delete[] names;
 }
