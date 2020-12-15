@@ -5,6 +5,7 @@
 #include <string>
 #include <algorithm>
 using namespace std;
+/*
 int main() {
     int length;
     cout << "How many names do you want to enter?" << endl;
@@ -23,4 +24,4 @@ int main() {
         cout << names[i] << endl;
     }
     delete[] names;
-}
+}*/

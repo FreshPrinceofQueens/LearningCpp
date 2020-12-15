@@ -1,4 +1,4 @@
-# Install script for directory: /Users/3849223/CLionProjects/cppLearnin/Pointers
+# Install script for directory: /Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

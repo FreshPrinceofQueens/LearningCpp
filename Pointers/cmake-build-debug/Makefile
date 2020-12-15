@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/3849223/CLionProjects/cppLearnin/Pointers
+CMAKE_SOURCE_DIR = "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,33 @@ FindFunct.s: FindFunct.cpp.s
 FindFunct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/FindFunct.cpp.s
 .PHONY : FindFunct.cpp.s
+
+ForEach.o: ForEach.cpp.o
+
+.PHONY : ForEach.o
+
+# target to build an object file
+ForEach.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/ForEach.cpp.o
+.PHONY : ForEach.cpp.o
+
+ForEach.i: ForEach.cpp.i
+
+.PHONY : ForEach.i
+
+# target to preprocess a source file
+ForEach.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/ForEach.cpp.i
+.PHONY : ForEach.cpp.i
+
+ForEach.s: ForEach.cpp.s
+
+.PHONY : ForEach.s
+
+# target to generate assembly for a file
+ForEach.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Pointers.dir/build.make CMakeFiles/Pointers.dir/ForEach.cpp.s
+.PHONY : ForEach.cpp.s
 
 dynamicArrayPractice.o: dynamicArrayPractice.cpp.o
 
@@ -263,6 +290,9 @@ help:
 	@echo "... FindFunct.o"
 	@echo "... FindFunct.i"
 	@echo "... FindFunct.s"
+	@echo "... ForEach.o"
+	@echo "... ForEach.i"
+	@echo "... ForEach.s"
 	@echo "... dynamicArrayPractice.o"
 	@echo "... dynamicArrayPractice.i"
 	@echo "... dynamicArrayPractice.s"

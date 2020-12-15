@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp
-iostream
--
+/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/ForEach.cpp
 string
 -
-algorithm
+iostream
 -
 

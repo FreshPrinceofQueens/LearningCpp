@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/3849223/CLionProjects/cppLearnin/Pointers
+CMAKE_SOURCE_DIR = "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Pointers.dir/depend.make
@@ -79,62 +79,76 @@ include CMakeFiles/Pointers.dir/flags.make
 
 CMakeFiles/Pointers.dir/main.cpp.o: CMakeFiles/Pointers.dir/flags.make
 CMakeFiles/Pointers.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pointers.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/main.cpp.o -c /Users/3849223/CLionProjects/cppLearnin/Pointers/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pointers.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/main.cpp.o -c "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/main.cpp"
 
 CMakeFiles/Pointers.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pointers.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/3849223/CLionProjects/cppLearnin/Pointers/main.cpp > CMakeFiles/Pointers.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/main.cpp" > CMakeFiles/Pointers.dir/main.cpp.i
 
 CMakeFiles/Pointers.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pointers.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/3849223/CLionProjects/cppLearnin/Pointers/main.cpp -o CMakeFiles/Pointers.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/main.cpp" -o CMakeFiles/Pointers.dir/main.cpp.s
 
 CMakeFiles/Pointers.dir/FindFunct.cpp.o: CMakeFiles/Pointers.dir/flags.make
 CMakeFiles/Pointers.dir/FindFunct.cpp.o: ../FindFunct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pointers.dir/FindFunct.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/FindFunct.cpp.o -c /Users/3849223/CLionProjects/cppLearnin/Pointers/FindFunct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pointers.dir/FindFunct.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/FindFunct.cpp.o -c "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/FindFunct.cpp"
 
 CMakeFiles/Pointers.dir/FindFunct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pointers.dir/FindFunct.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/3849223/CLionProjects/cppLearnin/Pointers/FindFunct.cpp > CMakeFiles/Pointers.dir/FindFunct.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/FindFunct.cpp" > CMakeFiles/Pointers.dir/FindFunct.cpp.i
 
 CMakeFiles/Pointers.dir/FindFunct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pointers.dir/FindFunct.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/3849223/CLionProjects/cppLearnin/Pointers/FindFunct.cpp -o CMakeFiles/Pointers.dir/FindFunct.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/FindFunct.cpp" -o CMakeFiles/Pointers.dir/FindFunct.cpp.s
 
 CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o: CMakeFiles/Pointers.dir/flags.make
 CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o: ../lengthOfLongestString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o -c /Users/3849223/CLionProjects/cppLearnin/Pointers/lengthOfLongestString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o -c "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/lengthOfLongestString.cpp"
 
 CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/3849223/CLionProjects/cppLearnin/Pointers/lengthOfLongestString.cpp > CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/lengthOfLongestString.cpp" > CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.i
 
 CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/3849223/CLionProjects/cppLearnin/Pointers/lengthOfLongestString.cpp -o CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/lengthOfLongestString.cpp" -o CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.s
 
 CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o: CMakeFiles/Pointers.dir/flags.make
 CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o: ../dynamicArrayPractice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o -c /Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o -c "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/dynamicArrayPractice.cpp"
 
 CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp > CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/dynamicArrayPractice.cpp" > CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.i
 
 CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/3849223/CLionProjects/cppLearnin/Pointers/dynamicArrayPractice.cpp -o CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/dynamicArrayPractice.cpp" -o CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.s
+
+CMakeFiles/Pointers.dir/ForEach.cpp.o: CMakeFiles/Pointers.dir/flags.make
+CMakeFiles/Pointers.dir/ForEach.cpp.o: ../ForEach.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Pointers.dir/ForEach.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pointers.dir/ForEach.cpp.o -c "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/ForEach.cpp"
+
+CMakeFiles/Pointers.dir/ForEach.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pointers.dir/ForEach.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/ForEach.cpp" > CMakeFiles/Pointers.dir/ForEach.cpp.i
+
+CMakeFiles/Pointers.dir/ForEach.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pointers.dir/ForEach.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/ForEach.cpp" -o CMakeFiles/Pointers.dir/ForEach.cpp.s
 
 # Object files for target Pointers
 Pointers_OBJECTS = \
 "CMakeFiles/Pointers.dir/main.cpp.o" \
 "CMakeFiles/Pointers.dir/FindFunct.cpp.o" \
 "CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o" \
-"CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o"
+"CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o" \
+"CMakeFiles/Pointers.dir/ForEach.cpp.o"
 
 # External object files for target Pointers
 Pointers_EXTERNAL_OBJECTS =
@@ -143,9 +157,10 @@ Pointers: CMakeFiles/Pointers.dir/main.cpp.o
 Pointers: CMakeFiles/Pointers.dir/FindFunct.cpp.o
 Pointers: CMakeFiles/Pointers.dir/lengthOfLongestString.cpp.o
 Pointers: CMakeFiles/Pointers.dir/dynamicArrayPractice.cpp.o
+Pointers: CMakeFiles/Pointers.dir/ForEach.cpp.o
 Pointers: CMakeFiles/Pointers.dir/build.make
 Pointers: CMakeFiles/Pointers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Pointers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Pointers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pointers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +173,6 @@ CMakeFiles/Pointers.dir/clean:
 .PHONY : CMakeFiles/Pointers.dir/clean
 
 CMakeFiles/Pointers.dir/depend:
-	cd /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/3849223/CLionProjects/cppLearnin/Pointers /Users/3849223/CLionProjects/cppLearnin/Pointers /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug /Users/3849223/CLionProjects/cppLearnin/Pointers/cmake-build-debug/CMakeFiles/Pointers.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers" "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers" "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug" "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug" "/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Pointers/cmake-build-debug/CMakeFiles/Pointers.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Pointers.dir/depend
 
