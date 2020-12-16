@@ -16,7 +16,7 @@ int main() {
         if(element == name) {
             cout << name << " was found!" << endl;
             nameFound = true;
-            break; 
+            break;
         }
     }
     if(!nameFound) {
