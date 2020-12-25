@@ -204,7 +204,7 @@ bool playBlackjack(const std::array<Card, 52> deck) {
 int main() {
     std::array<Card, 52> deck = createDeck();
     shuffleDeck(deck);
-    printDeck(deck);
+    cout << "Welcome to blackjack!" << endl;
     if(playBlackjack(deck)) {
         cout << "Player Won!" << endl;
     } else {
