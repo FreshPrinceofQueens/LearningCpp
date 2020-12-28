@@ -30,7 +30,7 @@ ArithmeticFunction getArithmeticFunction(char oper) {
             return divide;
             break;
     }
-}
+}/*
 int main() {
     int num1;
     int num2;
@@ -44,4 +44,4 @@ int main() {
     cout << (getArithmeticFunction(oper)(num1,num2));
 
     return 0;
-}
+}*/

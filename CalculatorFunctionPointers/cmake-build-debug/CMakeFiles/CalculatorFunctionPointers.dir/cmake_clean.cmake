@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CalculatorFunctionPointers.dir/TestStackOverflow.cpp.o"
   "CMakeFiles/CalculatorFunctionPointers.dir/main.cpp.o"
   "CalculatorFunctionPointers"
   "CalculatorFunctionPointers.pdb"

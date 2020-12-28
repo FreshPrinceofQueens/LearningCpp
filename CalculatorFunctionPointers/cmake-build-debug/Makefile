@@ -143,6 +143,33 @@ CalculatorFunctionPointers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CalculatorFunctionPointers.dir/build.make CMakeFiles/CalculatorFunctionPointers.dir/build
 .PHONY : CalculatorFunctionPointers/fast
 
+TestStackOverflow.o: TestStackOverflow.cpp.o
+
+.PHONY : TestStackOverflow.o
+
+# target to build an object file
+TestStackOverflow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CalculatorFunctionPointers.dir/build.make CMakeFiles/CalculatorFunctionPointers.dir/TestStackOverflow.cpp.o
+.PHONY : TestStackOverflow.cpp.o
+
+TestStackOverflow.i: TestStackOverflow.cpp.i
+
+.PHONY : TestStackOverflow.i
+
+# target to preprocess a source file
+TestStackOverflow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CalculatorFunctionPointers.dir/build.make CMakeFiles/CalculatorFunctionPointers.dir/TestStackOverflow.cpp.i
+.PHONY : TestStackOverflow.cpp.i
+
+TestStackOverflow.s: TestStackOverflow.cpp.s
+
+.PHONY : TestStackOverflow.s
+
+# target to generate assembly for a file
+TestStackOverflow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CalculatorFunctionPointers.dir/build.make CMakeFiles/CalculatorFunctionPointers.dir/TestStackOverflow.cpp.s
+.PHONY : TestStackOverflow.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CalculatorFunctionPointers"
+	@echo "... TestStackOverflow.o"
+	@echo "... TestStackOverflow.i"
+	@echo "... TestStackOverflow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
