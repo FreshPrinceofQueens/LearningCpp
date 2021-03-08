@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/LambdaCapturePractice/main.cpp
+iostream
+-
+vector
+-
+time.h
+-
+stdlib.h
+-
+cmath
+-
+algorithm
+-
+
