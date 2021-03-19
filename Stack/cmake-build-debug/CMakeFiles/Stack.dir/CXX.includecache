@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tayooduyemi/Desktop/Persy Stuff/Personal-Projects/Educate/LearningCpp/Stack/main.cpp
+iostream
+-
+array
+-
+
